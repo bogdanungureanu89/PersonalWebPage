@@ -1,27 +1,15 @@
-# Bogdanungureanu
+# Personal Web Page
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+Repository providing a template for any personal presentation / CV web page. My own web page was built scaffolding this project.
 
-## Development server
+## Technology stack
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+  1. [Node.js 10.15](https://nodejs.org/en/)
+  2. [TypeScript 3.2](https://www.typescriptlang.org)
+  3. [Angular 7.2.2](https://angular.io)
+  4. [SCSS 1.16.1](https://sass-lang.com)
 
-## Code scaffolding
+# Project description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Code files are organized into modules and components. When routing directly to a component, I find it best to separate the html and css files from the ts. When using libraries such as [PrimeNG](https://www.primefaces.org/primeng/#/) by inheriting small components, it's ok to just use an inline string inside the template, although I would still emphasize on a clean separation between them.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
