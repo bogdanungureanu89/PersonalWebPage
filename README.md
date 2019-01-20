@@ -12,7 +12,4 @@ Repository providing a template for any personal presentation / CV web page. My 
 # Project description
 
 Code files are organized into modules and components. When routing directly to a component, I find it best to separate the html and css files from the ts. When using libraries such as [PrimeNG](https://www.primefaces.org/primeng/#/) by inheriting small components, it's ok to just use an inline string inside the template, although I would still emphasize on a clean separation between them.
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
